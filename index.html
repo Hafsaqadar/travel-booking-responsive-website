@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DallaTours travel with us</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+ <!-- navbar -->
+
+ <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container ">
+      <a class="navbar-brand text-white text-uppercase " href="#">DallaTours</a>
+
+      <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#packages">packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#faq">FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- hero -->
+   <main>
+
+
+    <div class="modal fade" tabindex="-1" id="booking-model">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Book a tour</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+           
+           <form action="#">
+           
+            <div class="row g-2">
+              <div class="col-sm-6">
+                <div class="form-floatng">
+                  <label for="email">Email address</label>
+                  <input type="text" type="email" class="form-control" placeholder="Enter your email">
+                 
+                 </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-floatng">
+                  <label for="select1"> pick a tour</label>
+               <select id="select1" class="form-select">
+                <option>Tromso, Norway - $899</option>
+                <option>reykjvavik, iceland - $899</option>
+                <option>yukon, canada - $899</option>
+               </select>
+               
+               </div>
+              </div>
+              
+                
+            </div>
+           
+
+           </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end model -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="https://images.unsplash.com/photo-1488415032361-b7e238421f1b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="...">
+
+            <div class="carousel-caption top-0 mt-4 ">
+              <p class="fs-3 mt-5 text-uppercase">Discover the hidden world</p>
+              <h1 class="display-1 fw-bold text-capitalize"> the Dalla Tours</h1>
+              <button type="button" class="btn btn-primary mt-4 px-4 py-2 fs-5" data-bs-toggle="modal" data-bs-target="#booking-model">Book a tour</button>
+
+            </div>
+
+          </div>
+          <div class="carousel-item  c-item">
+            <img src="https://images.unsplash.com/photo-1529963183134-61a90db47eaf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="...">
+
+            <div class="carousel-caption top-0 mt-4 ">
+              <p class="fs-3 mt-5 text-uppercase">Discover the hidden world</p>
+              <h1 class="display-1 fw-bold text-capitalize"> the Dalla Tours</h1>
+              <button type="button" class="btn btn-primary mt-4 px-4 py-2 fs-5" data-bs-toggle="modal" data-bs-target="#booking-model">Book a tour</button>
+            </div>
+            </div>
+
+         
+          <div class="carousel-item  c-item">
+            <img src="https://images.unsplash.com/photo-1470072848830-f1817c676674?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100 c-img" alt="...">
+
+            <div class="carousel-caption top-0 mt-4 ">
+              <p class="fs-3 mt-5 text-uppercase">Discover the hidden world</p>
+              <h1 class="display-1 fw-bold text-capitalize"> the Dalla Tours</h1>
+              <button type="button" class="btn btn-primary mt-4 px-4 py-2 fs-5 " data-bs-toggle="modal" data-bs-target="#booking-model">Book a tour</button>
+              </div>
+              </div>
+
+     </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="overview">
+        <div class="container h-100 d-flex align-items-center">
+          <div class="row  w-100 text-center fs-4">
+            <div class="col-xl">
+              <i class="bi bi-airplane-fill me-2"></i>
+              3 amaizing destinations
+            </div>
+    
+            <div class="col-xl">
+              <i class="bi bi-wallet-fill me-2"></i>
+              only pay 5% up front
+            </div>
+    
+            <div class="col-xl">
+              <i class="bi bi-patch-check-fill me-2"></i>
+              1000's of customers
+            </div>
+          </div>
+
+          </div>
+      </section>
+
+      <section id="packages" class="pt-md-5" >
+        <h2 class="text-center my-5">packages</h2>
+
+        <div class="container ">
+
+          <div class="row">
+            <div class="col-lg">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1700981293090-f78b500fc92c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">yukon, canada - $899</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <button type="button" class="btn btn-primary mt-4 px-4 py-2 fs-5 " data-bs-toggle="modal" data-bs-target="#booking-model">Book a tour</button>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-lg">
+             
+              <div class="card" >
+                <img src="https://images.unsplash.com/photo-1494564605686-2e931f77a8e2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">reykjvavik, iceland - $899</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <button type="button" class="btn btn-primary mt-4 px-4 py-2 fs-5 " data-bs-toggle="modal" data-bs-target="#booking-model">Book a tour</button>
+                </div>
+              </div>
+  
+            </div>
+            <div class="col-lg">
+             
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1518156959312-07a5380c1261?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">tromso, norway - $899</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <button type="button" class="btn btn-primary mt-4 px-4 py-2 fs-5 " data-bs-toggle="modal" data-bs-target="#booking-model">Book a tour</button>
+                </div>
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+       
+      </section>
+
+      <section id="faq" class="py-md-5 ">
+     <h2 class="mp-5 text-center">FAQ</h2>
+     <div class="container">
+      <div class="accordion w-75 mx-auto" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+           how log are the trips?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, dicta ratione. Culpa cumque, molestias fugiat earum neque nulla consequuntur illum nostrum quia sequi. Atque, reiciendis. Earum numquam mollitia doloribus veniam.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          is the flight included?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam tempora voluptatibus distinctio minima nisi tenetur obcaecati incidunt excepturi. Aspernatur non distinctio fuga cupiditate quisquam fugit, optio vel maxime laudantium? Doloremque optio magni molestiae suscipit, ullam accusantium tempora deserunt ad a.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              can i cancel after booking
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In est, qui illo aperiam dolores vitae laborum commodi laudantium neque autem?
+            </div>
+          </div>
+        </div>
+      </div>
+
+     </div>
+      </section>
+
+   </main>
+
+  <!-- end hero -->
+
+  <footer class="bg-dark py-5 mt-5">
+    <div class="container text-light text-center">
+    <p class="display-5 mb-3">DallaTours</p>
+    <small class="text-white-50">&copy; copyright by Hafsa. All rights reserved</small>
+    </div>
+
+  </footer>
+    
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
